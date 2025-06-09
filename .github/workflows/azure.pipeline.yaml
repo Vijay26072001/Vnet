@@ -22,7 +22,7 @@ jobs:
 
       with:
 
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
+        creds: ${{ secrets.VNET_SECRECT }}
  
     - name: Deploy ARM Template
 
